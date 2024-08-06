@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(background.avif);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Poppins','varela';
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+.home{
+	list-style-type:none;
+	margin-left: 680px;
+	margin-top: 17px;
+}
+.input-search{
+	width: 25%;
+	padding:10px 0;
+	margin:15px 0;
+	margin-left: 20px;
+	border-left:5px;
+	border-top:5px;
+	border-right:5px;
+	border-radius: 20px;
+	border-bottom: 1px solid rgb(255, 255, 255);
+	outline:none;
+	background:white;
+}
+nav ul li button
+{
+    font-size: 17px;
+    background: linear-gradient(90deg, rgba(64,1,189,1) 17%, rgba(127,2,244,1) 48%, rgba(175,0,255,1) 90%);
+    text-transform: uppercase;
+    height: 40px;
+    color: white;
+    border: none;
+	margin-left: 20px;
+    
+    margin-top: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: black;
+}
+
+.brand img{
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 55px;
+    width: 55px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.homepage{
+    height: 90vh;
+    
+}
+.theme{
+	bottom: 50;
+	color: black;
+	padding: 50;
+	font-family: sans-serif;
+	position: sticky;
+
+}
+
+
+div{
+    
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+#login-form
+{
+    display: none;
+}
+.form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(153, 140, 140, 0.3);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+    position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+    background: rgb(64,1,189);
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+    width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: rgb(64,1,189);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:rgb(255, 255, 255);
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}
+
+
+

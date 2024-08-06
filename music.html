@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="musicstyle.css">
+</head>
+<body>
+    <nav>
+        <ul class='left-side'>
+            <li class="brand"><img src="logo.png" alt="Music">Music</li>
+            <li class="home">Home</li>
+            <input type='text'class='input-search'placeholder='Search' required >
+            <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login/SIGNUP</button></li>
+            
+        </ul>
+    </nav>
+    
+
+    <div class="homepage">
+        <h1 class="theme">Music is Everything</h1>
+        <h2 class="theme">SIGN IN TO LISTEN</h2>
+        <div id='login-form'class='login-page'>
+            <div class="form-box">
+                <div class='button-box'>
+                    <div id='btn'></div>
+                    <button type='button'onclick='login()'class='toggle-btn'>Log in</button>
+                    <button type='button'onclick='register()'class='toggle-btn'>Signup</button>
+                </div>
+                <form id='login' class='input-group-login' action='musicpage.html'>
+                    <input type='text'class='input-field'placeholder='Email Id' required >
+                    <input type='password'class='input-field'placeholder='Enter Password' required>
+                    <input type='checkbox'class='check-box'><span>Remember Password</span>
+                    <button type='submit'class='submit-btn'>Log in</button>
+                </form>
+                <form id='register' class='input-group-register'>
+                    <input type='text'class='input-field'placeholder='First Name' required>
+                    <input type='text'class='input-field'placeholder='Last Name ' required>
+                    <input type='email'class='input-field'placeholder='Email Id' required>
+                    <input type='password'class='input-field'placeholder='Enter Password' required>
+                    <input type='password'class='input-field'placeholder='Confirm Password'  required>
+                    <input type='checkbox'class='check-box'><span>I agree to the terms and conditions</span>
+                   <button type='submit'class='submit-btn'>SIGNUP</button>
+                </form>
+           </div>
+       </div>
+    </div>
+</div>
+    
+    
+    <script src="musicscript.js"></script>
+</body>
+</html>
